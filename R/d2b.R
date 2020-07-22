@@ -36,7 +36,7 @@ sund2b <- function(
   breadcrumbs = NULL,
   rootLabel = NULL,
   showLabels = FALSE,
-  width = NULL, height = NULL, elementId = NULL
+  width = NULL, height = NULL, elementId = NULL, innerRadius=NULL,outerRadius=NULL
 ) {
 
 
@@ -77,7 +77,9 @@ sund2b <- function(
       colors = colors,
       valueField = valueField,
       rootLabel = rootLabel,
-      showLabels = showLabels
+      showLabels = showLabels,
+      innerRadius=innerRadius,
+      outerRadius=outerRadius
     )
   )
 
