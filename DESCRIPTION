@@ -1,8 +1,8 @@
 Package: sunburstR
 Type: Package
-Title: Sunburst 'Htmlwidget'
-Version: 2.1.4
-Date: 2020-07-06
+Title: Sunburst 'Htmlwidget' gradient
+Version: 0.0.1
+Date: 2020-07-22
 Authors@R: c(
       person(
         "Mike", "Bostock"
