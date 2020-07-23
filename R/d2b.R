@@ -192,7 +192,7 @@ d2b_dep <- function() {
     src = c(
       file = system.file("htmlwidgets/lib/d2b", package="sunburstR")
     ),
-    script = "d2b.js",
+    script = "d2b.min.js",
     stylesheet = "d2b_custom.css"
   )
 }
