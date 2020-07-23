@@ -1,0 +1,20 @@
+{
+  "root": "./docs",
+  "output": "public",
+  "title": "d2b",
+  "description": "d2b reference documentation.",
+  "author": "Kevin Warne",
+
+  "plugins": ["-sharing", "custom-favicon", "toggle-chapters", "ga"],
+
+  "pluginsConfig" : {
+    "favicon": "docs/images/favicon.ico",
+    "ga": {
+        "token": "UA-111208921-2"
+    }
+  },
+
+  "styles": {
+    "website": "styles/website.css"
+  }
+}
