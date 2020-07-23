@@ -37,7 +37,7 @@ sund2b <- function(
   rootLabel = NULL,
   showLabels = FALSE,
   width = NULL, height = NULL, elementId = NULL,blah=NULL
-) {
+) { 
 
 
   if(is.null(data)) stop("please provide data",call.=FALSE)
