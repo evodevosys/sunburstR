@@ -183,7 +183,7 @@ renderSund2b <- function(expr, env = parent.frame(), quoted = FALSE) {
   if (!quoted) { expr <- substitute(expr) } # force quoted
   htmlwidgets::shinyRenderWidget(expr, sund2bOutput, env, quoted = TRUE)
 }
-
+ 
 #' @keywords internal
 d2b_dep <- function() {
   htmltools::htmlDependency(
@@ -192,7 +192,7 @@ d2b_dep <- function() {
     src = c(
       file = system.file("htmlwidgets/lib/d2b", package="sunburstR")
     ),
-    script = "d2b.min.js",
+    script = "d2b.js",
     stylesheet = "d2b_custom.css"
   )
 }
